@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <SeekBar
+        android:id="@+id/id_slide_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="1dp"
+        android:maxHeight="1dp"
+        android:progressDrawable="@drawable/widget_slider_style"
+        android:thumb="@drawable/huakuanyangshi"
+        android:padding="10dp"
+        />
+
+
+    <!--
+        在SeekBar标签中
+        通过android:progressDrawable定义已有进度和没有进度的样式
+        通过android:thumb定义滑块的样式
+        通过结合android:minHeight 和 android:maxHeight 设置高度
+    -->
+
+
+
+</LinearLayout>
